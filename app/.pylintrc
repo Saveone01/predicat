@@ -1,0 +1,20 @@
+[MASTER]
+# Dossier racine du projet
+ignore=venv  # Ignorer le dossier des dépendances virtuelles
+
+[MESSAGES CONTROL]
+# Désactiver certains messages gênants pour débuter
+disable=
+    missing-module-docstring,
+    missing-function-docstring,
+    too-few-public-methods
+
+[FORMAT]
+# Limite la longueur des lignes
+max-line-length=100
+# Noms de variables autorisés
+good-names=i,j,k,e,x,run,_ 
+
+[REPORTS]
+# Format du rapport pylint
+output-format=text
